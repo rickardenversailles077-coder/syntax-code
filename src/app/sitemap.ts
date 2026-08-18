@@ -1,11 +1,11 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: "https://syntax-code-pi.vercel.app",
       lastModified: new Date(),
-      changeFrequency: "daily",
+      changeFrequency: "weekly",
       priority: 1.0,
     },
   ];
